@@ -3441,10 +3441,10 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		-moz-transition: background-color 0.2s ease;
-		-webkit-transition: background-color 0.2s ease;
-		-ms-transition: background-color 0.2s ease;
-		transition: background-color 0.2s ease;
+		-moz-transition: background-color 0.1s ease;
+		-webkit-transition: background-color 0.1s ease;
+		-ms-transition: background-color 0.1s ease;
+		transition: background-color 0.1s ease;
 		background: #2e3842;
 		height: 3em;
 		left: 0;
@@ -3456,10 +3456,10 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			-moz-transition: opacity 0.2s ease;
-			-webkit-transition: opacity 0.2s ease;
-			-ms-transition: opacity 0.2s ease;
-			transition: opacity 0.2s ease;
+			-moz-transition: opacity 0.1s ease;
+			-webkit-transition: opacity 0.1s ease;
+			-ms-transition: opacity 0.1s ease;
+			transition: opacity 0.1s ease;
 			height: inherit;
 			left: 1.25em;
 			line-height: inherit;
@@ -3493,7 +3493,7 @@ input, select, textarea {
 			#header nav > ul {
 				list-style: none;
 				margin: 0;
-				padding: 0;
+				padding: 0 3em;
 				white-space: nowrap;
 			}
 
@@ -3507,9 +3507,10 @@ input, select, textarea {
 						color: #fff;
 						display: block;
 						font-size: 0.8em;
-						letter-spacing: 0.225em;
-						padding: 0 1.5em;
+						letter-spacing: 0.2em;
+						padding: 0 1em;
 						text-transform: uppercase;
+						font-weight: 600;
 					}
 
 						#header nav > ul > li > a.menuToggle {
@@ -3589,12 +3590,12 @@ input, select, textarea {
 			-webkit-transform: scale(1);
 			-ms-transform: scale(1);
 			transform: scale(1);
-			-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
-			-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
-			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
-			transition: transform 0.5s ease, opacity 0.5s ease;
+			-moz-transition: -moz-transform 0.25s ease, opacity 0.25s ease;
+			-webkit-transition: -webkit-transform 0.25s ease, opacity 0.5s ease;
+			-ms-transition: -ms-transform 0.25s ease, opacity 0.25s ease;
+			transition: transform 0.25s ease, opacity 0.25s ease;
 			display: inline-block;
-			font-size: 1.75em;
+			font-size: 2.5em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
@@ -3602,14 +3603,14 @@ input, select, textarea {
 		}
 
 			#banner h2:before, #banner h2:after {
-				-moz-transition: width 0.85s ease;
-				-webkit-transition: width 0.85s ease;
-				-ms-transition: width 0.85s ease;
-				transition: width 0.85s ease;
-				-moz-transition-delay: 0.25s;
-				-webkit-transition-delay: 0.25s;
-				-ms-transition-delay: 0.25s;
-				transition-delay: 0.25s;
+				-moz-transition: width 0.425s ease;
+				-webkit-transition: width 0.425s ease;
+				-ms-transition: width 0.425s ease;
+				transition: width 0.425s ease;
+				-moz-transition-delay: 0.1251s;
+				-webkit-transition-delay: 0.125s;
+				-ms-transition-delay: 0.125s;
+				transition-delay: 0.125s;
 				background: #fff;
 				content: '';
 				display: block;
@@ -3638,14 +3639,14 @@ input, select, textarea {
 			}
 
 		#banner .more {
-			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
-			-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
-			-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
-			transition: transform 0.75s ease, opacity 0.75s ease;
-			-moz-transition-delay: 3.5s;
-			-webkit-transition-delay: 3.5s;
-			-ms-transition-delay: 3.5s;
-			transition-delay: 3.5s;
+			-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
+			-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
+			transition: transform 0.5s ease, opacity 0.5s ease;
+			-moz-transition-delay: 2s;
+			-webkit-transition-delay: 2s;
+			-ms-transition-delay: 2s;
+			transition-delay: 2s;
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
@@ -3656,7 +3657,7 @@ input, select, textarea {
 			font-size: 0.8em;
 			height: 8.5em;
 			left: 50%;
-			letter-spacing: 0.225em;
+			letter-spacing: 0.2em;
 			margin-left: -8.5em;
 			opacity: 1;
 			outline: 0;
@@ -3685,14 +3686,14 @@ input, select, textarea {
 
 		#banner:after {
 			pointer-events: none;
-			-moz-transition: opacity 3s ease-in-out;
-			-webkit-transition: opacity 3s ease-in-out;
-			-ms-transition: opacity 3s ease-in-out;
-			transition: opacity 3s ease-in-out;
-			-moz-transition-delay: 1.25s;
-			-webkit-transition-delay: 1.25s;
-			-ms-transition-delay: 1.25s;
-			transition-delay: 1.25s;
+			-moz-transition: opacity 1.5s ease-in-out;
+			-webkit-transition: opacity 1.5s ease-in-out;
+			-ms-transition: opacity 1.5s ease-in-out;
+			transition: opacity 1.5s ease-in-out;
+			-moz-transition-delay: 0.625s;
+			-webkit-transition-delay: 0.625s;
+			-ms-transition-delay: 0.625s;
+			transition-delay: 0.625s;
 			content: '';
 			background: #2e3842;
 			display: block;
@@ -3826,8 +3827,8 @@ input, select, textarea {
 	}
 
 		#main > header h2 {
-			font-size: 1.75em;
-			margin: 0 0 0.5em 0;
+			font-size: 3em;
+			margin: 0 0 0.2em 0;
 		}
 
 		#main > header p {
@@ -3844,7 +3845,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			#main > header {
-				padding: 10em 0 8em 0 ;
+				padding: 8em 0 6em 0 ;
 			}
 
 		}
