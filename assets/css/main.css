@@ -3591,7 +3591,7 @@ input, select, textarea {
 			-ms-transform: scale(1);
 			transform: scale(1);
 			-moz-transition: -moz-transform 0.25s ease, opacity 0.25s ease;
-			-webkit-transition: -webkit-transform 0.25s ease, opacity 0.5s ease;
+			-webkit-transition: -webkit-transform 0.25s ease, opacity 0.25s ease;
 			-ms-transition: -ms-transform 0.25s ease, opacity 0.25s ease;
 			transition: transform 0.25s ease, opacity 0.25s ease;
 			display: inline-block;
@@ -3607,7 +3607,7 @@ input, select, textarea {
 				-webkit-transition: width 0.425s ease;
 				-ms-transition: width 0.425s ease;
 				transition: width 0.425s ease;
-				-moz-transition-delay: 0.1251s;
+				-moz-transition-delay: 0.125s;
 				-webkit-transition-delay: 0.125s;
 				-ms-transition-delay: 0.125s;
 				transition-delay: 0.125s;
