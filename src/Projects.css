@@ -1,0 +1,38 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projects__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5vh 5vw;
+}
+
+.projects__container {
+    /* padding: 5vh 5vw; */
+    margin: 1vh 0.5vw;
+    height: 250px;
+    background-color: black;
+    text-align: center;
+    border-radius: 1rem;
+    border: 1px;
+    position: relative;
+}
+.projects__container__img {
+    border-radius: 1rem;
+    opacity: 0.5;
+    border: 5px solid black;
+}
+
+
+.projects__container__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 35px;
+}

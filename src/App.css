@@ -1,0 +1,76 @@
+.App {
+  /* padding: 5vh 0; */
+}
+
+.heading {
+  margin: 2vh 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fafafa;
+}
+.heading__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading__intro {
+  width: 40vw;
+  color: #666666;
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1.5;
+  font-weight: 600;
+  letter-spacing: 0em;
+  margin: 0;
+  /* font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif; */
+}
+h2 {
+  margin: 0;
+  font-weight: normal;
+}
+h3 {
+  margin: 0;
+  font-weight: normal;
+}
+p {
+  margin: 0;
+  /* color: #666666; */
+}
+
+
+.school {
+  padding: 5vh 0;
+  margin: 2vh 1vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.school__courses {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+}
+
+.school__title {
+  position: relative;
+  text-align: center;
+}
+
+.school__title__text {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: red;
+}

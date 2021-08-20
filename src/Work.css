@@ -1,0 +1,22 @@
+.work {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+}
+.work__container {
+    margin: 1vh 0.5vw;
+    padding: 5vh 1vw;
+    width:49vw;
+    text-align: center;
+    background-color: #fafafa;
+}
+.work__container__small {
+    margin: 1vh 0.5vw;
+    padding: 1vh 1vw;
+    background-color: #fafafa;
+}
+.work__company_description {
+    margin: 5px 0;
+    color: #666666;
+}
